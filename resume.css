@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+main{
+	letter-spacing: 0.06em;
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("background.jpg");
+	background-size: cover;
+	background-repeat:repeat;
+}
+.center{
+	
+    text-align: center;
+}
+header{
+	background-color: #d3eaf3;
+	float: left;
+    position: fixed;
+    margin: 10px;
+    letter-spacing: 0.06em;
+    width: 280px;
+    box-shadow: 5px 4px 4px lightgrey;
+
+
+}
+
+header h1, header p {
+	margin: 10px;
+}
+header h1{
+	font-size: 20px;
+   
+    
+}
+header p{
+	color: grey;
+}
+header ul{
+	list-style: none;
+	text-align: center; 
+	padding-left: 9px;
+}
+
+header li{
+
+	display: inline;
+	line-height:20px; 
+    margin: 5px 4px; 
+  
+    
+}
+header li a{
+	text-decoration: none;
+}
+
+
+.profile img{
+	padding: 10px;
+    height: 180px;
+    width: 190px;
+    border-radius: 50%;
+
+
+}
+.overlay{
+	display: block;
+	position: fixed;
+	top:0%;
+	left:0%;
+	
+	z-index:100;
+	width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: .80;
+
+}
+
+.QR_show{
+	position: absolute;
+    width: 300px;
+    top: 20%;
+    left: 100%;
+    margin-left: 120px;
+    z-index: 101;
+}
+
+
+.hidden{
+	display: none;
+}
+
+
+/*---------container--------------*/
+.shift-left{
+	
+	margin-left:320px;
+}
+.container{
+	padding: 30px;
+    /* border: 10px; */
+    margin-right: 45px;
+    background-color: white;
+}
+.container div{
+	border-bottom: 1px solid transparent;
+	margin: 10px;
+
+}
+#Skills, #Education{
+	border-color: #b8b9ba;
+}
+#Skills h2{
+	margin-bottom: 5px;
+}
+#Skills ul{
+	width: 50%;
+	margin-top: 0;
+	list-style: none;
+    /* text-align: center; */
+    /* margin-top: 0px; */
+    margin-right: 10px;
+   
+    /* border-left: 10px; */
+    /* padding-top: 0px; */
+    display: inline;
+}
+.skills_container{
+	width: 100%;
+    height: 90%;
+    margin: 0;
+    display: flex;
+}
